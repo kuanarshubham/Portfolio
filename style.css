@@ -11,19 +11,23 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
     border-bottom: 1px solid black;
 }
 
 .portfolio-sign {
-    height: 84px;
-    width: 88px;
-    background-image: url(./resource/icons/cc_app84.png);
+    margin-left: 2em;
+    width: 60px;
+    height: 60px;
+    background-image: url(./resource/images/Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hamburger-button {
-    height: 84px;
-    width: 88px;
+    margin-right: 2em;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,6 +51,10 @@
 
 .sec-col{
     font-size: 1.9em;
+}
+
+.discription{
+    font-size: 1.5em;
 }
 
 .links{
@@ -78,8 +86,19 @@
 .one, .four{
     height: 6em;
     width: 100%;
-    background-color: rgb(144, 74, 74);
     border-radius: 1em;
+}
+
+.one{
+    background-image: url(./resource/images/1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.four{
+    background-image: url(./resource/images/6.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
 }
 
 .two, .three{
@@ -92,28 +111,36 @@
 .two-one{
     height: 6em;
     width: 10%;
-    background-color: rgb(58, 25, 117);
+    background-image: url(./resource/images/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 1em;
 }
 
 .two-two{
     height: 6em;
     width: 88.7%;
-    background-color: rgb(58, 25, 117);
+    background-image: url(./resource/images/3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 1em;
 }
 
 .three-one{
     height: 6em;
     width: 58.7%;
-    background-color: rgb(58, 25, 117);
+    background-image: url(./resource/images/4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 1em;
 }
 
 .three-two{
     height: 6em;
     width: 40%;
-    background-color: rgb(58, 25, 117);
+    background-image: url(./resource/images/5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 1em;
 }
 
@@ -167,8 +194,23 @@
 .p1, .p2, .p3, .p4{
     width: 28em;
     height: 28em;
-    background-color: #F3F4F9;
     border-radius: 1em;
+}
+
+.p1{
+    background-image: url(./resource/projects/f1.png);
+}
+
+.p2{
+    background-image: url(./resource/projects/f2.png);
+}
+
+.p3{
+    background-image: url(./resource/projects/f3.png);
+}
+
+.p4{
+    background-image: url(./resource/projects/f4.png);
 }
 
 .other-p{
@@ -190,22 +232,24 @@
 }
 
 .footer{
-    border-top: 1px solid black;
     padding: 2em;
-    background-color: pink;
-    height: 10em;
+    height: 27em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-box{
-    background-color: white;
-    height: 100em;
+    background-color: #282828;
+    height: 25em;
     border-radius: 2em;
-    padding-top: 10em;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .connect{
@@ -225,7 +269,7 @@
 }
 
 .get-in-touch{
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 2em;
     padding: .7em;
     width: 10%;
@@ -236,5 +280,20 @@
 
 .get-in-touch a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.footer-nav{
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.copyright{
+    padding-top: 1em;
+    display: flex;
+    width: 9%;
+    justify-content: space-between;
+    align-items: center;
 }
